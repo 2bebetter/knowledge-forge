@@ -1,0 +1,16 @@
+title: 我的技术笔记
+description: 技术文档和工作记录
+theme: minima
+markdown: kramdown
+plugins:
+  - jekyll-feed
+
+# 排除不需要发布的目录
+exclude:
+  - 00-inbox/
+  - 01-daily/
+  - 05-archive/
+  - templates/
+  - attachments/
+  - .obsidian/
+  - .git/
